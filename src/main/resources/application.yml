@@ -1,0 +1,17 @@
+phone:
+  cost: 888
+  gaming:
+    cost: 1000
+    capacity: 8
+    graphic: "G72"
+  camera:
+    frontpixel: 2000
+    backpixel: 800
+    webcam: 6
+  trading:
+    bank: "ICBC"
+
+
+
+
+

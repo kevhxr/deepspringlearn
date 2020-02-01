@@ -11,9 +11,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class DeepMain {
     public static void main(String[] args) {
         ConfigurableApplicationContext ctx = SpringApplication.run(DeepMain.class, args);
-        BackService backService = (BackService) ctx.getBean("frontService");
+        BackService backService = (BackService) ctx.getBean("backService");
         //FrontService frontService = ctx.getBean(FrontService.class);
-        backService.doTest();
+        //backService.doTest();
 
     }
 }

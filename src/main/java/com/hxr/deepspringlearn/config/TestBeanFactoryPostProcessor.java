@@ -14,6 +14,6 @@ public class TestBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         GenericBeanDefinition frontService =
                 (GenericBeanDefinition) beanFactory.getBeanDefinition("frontService");
-        frontService.setBeanClass(BackService.class);
+        //frontService.setBeanClass(BackService.class);
     }
 }
