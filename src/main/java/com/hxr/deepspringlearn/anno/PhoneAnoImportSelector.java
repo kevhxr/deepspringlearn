@@ -11,7 +11,12 @@ import org.springframework.core.type.AnnotationMetadata;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ *
+ * been called at
+ * ConfigurationClassParser这个类的processImports方法
+ *
+ */
 public class PhoneAnoImportSelector implements ImportSelector {
 
     private static Logger logger = LoggerFactory.getLogger(PhoneAnoImportSelector.class);

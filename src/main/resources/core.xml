@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <context:component-scan base-package="com.hxr.deepspringlearn.purespring"></context:component-scan>
+
+    <bean id="myDao1" class="com.hxr.deepspringlearn.purespringXml.MyDao">
+        <property name="price" value="100"></property>
+    </bean>
+    <bean id="myDao2" class="com.hxr.deepspringlearn.purespringXml.MyDao">
+        <property name="price" value="1000"></property>
+    </bean>
+    <bean id="myAutoXml" class="com.hxr.deepspringlearn.purespringXml.MyAutoXml">
+    </bean>
+</beans>
